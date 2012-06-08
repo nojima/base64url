@@ -1,5 +1,5 @@
 require 'test/unit'
-require '../lib/base64url'
+require File.dirname(__FILE__) + '/../lib/base64url'
 
 class Base64URLTest < Test::Unit::TestCase
   def setup
